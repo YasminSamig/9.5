@@ -1,0 +1,5 @@
+public class Football extends Ball{
+    public String toString(){
+        return "football";
+    }
+}
