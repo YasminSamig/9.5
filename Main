@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+    public static void observe(Ball b){
+        System.out.println(b);
+    }
+    public static void main(String[] args) {
+        Ball footy = new Football();
+        observe(footy);
+        Ball[] balls = {footy};
+        ArrayList<Ball> listy= new ArrayList<Ball>();
+        listy.add(footy);
+    }
+}
